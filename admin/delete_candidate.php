@@ -5,6 +5,7 @@ include 'header.php';
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
+    
     // Delete the candidate from the database
     $sql = "DELETE FROM candidates WHERE id = '$id'";
     if (mysqli_query($conn, $sql)) {

@@ -2,6 +2,8 @@
 session_start();
 include 'db/connection.php';
 include 'header.php';
+
+
 // Enable error reporting for debugging
 error_reporting(E_ALL);
 ini_set('display_errors', 1);

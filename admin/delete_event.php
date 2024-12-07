@@ -2,6 +2,7 @@
 session_start();
 include 'db/connection.php';
 include 'header.php';
+
 $eventId = isset($_GET['id']) ? $_GET['id'] : null;
 if ($eventId) {
     // Delete associated candidates first

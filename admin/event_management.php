@@ -2,6 +2,7 @@
 session_start();
 include 'db/connection.php';
 include 'header.php';
+
 // Fetch all events
 $sql = "SELECT * FROM events";
 $events = mysqli_query($conn, $sql);

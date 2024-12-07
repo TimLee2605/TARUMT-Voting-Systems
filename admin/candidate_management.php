@@ -1,6 +1,7 @@
 <?php
 include 'db/connection.php';
 include 'header.php';
+
 // Fetch all candidates from the database
 $sql = "SELECT * FROM candidates";
 $candidates = mysqli_query($conn, $sql);
