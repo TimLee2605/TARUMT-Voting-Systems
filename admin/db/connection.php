@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";  // Your DB username
 $password = "";      // Your DB password
-$dbname = "voting_system"; // Your DB name
+$dbname = "votingsystem"; // Your DB name
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
