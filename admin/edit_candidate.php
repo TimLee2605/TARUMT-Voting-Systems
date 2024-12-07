@@ -1,7 +1,6 @@
 <?php
 include 'db/connection.php';
 include 'header.php';
-
 // Check if candidate ID is provided
 if (isset($_GET['id'])) {
     $id = $_GET['id'];

@@ -2,7 +2,6 @@
 session_start();
 include 'db/connection.php';
 include 'header.php';
-
 // Fetch total votes and votes for each candidate
 $sql = "SELECT * FROM events";
 $events = mysqli_query($conn, $sql);

@@ -3,7 +3,6 @@ session_start();
 include 'db/connection.php';
 include 'header.php';
 
-
 // Handle Add New Admin (Create)
 if (isset($_POST['add_admin'])) {
     $username = isset($_POST['username']) ? mysqli_real_escape_string($conn, $_POST['username']) : '';

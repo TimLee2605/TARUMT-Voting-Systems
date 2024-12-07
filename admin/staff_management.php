@@ -5,7 +5,6 @@ include 'header.php';
 // Fetch all admin records (Read)
 $sql = "SELECT * FROM admins";
 $result = mysqli_query($conn, $sql);
-
 ?>
 
 <!DOCTYPE html>

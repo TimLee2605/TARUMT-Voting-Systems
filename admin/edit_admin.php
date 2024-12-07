@@ -2,7 +2,6 @@
 session_start();
 include 'db/connection.php';
 include 'header.php';
-
 // Fetch admin data for editing
 if (isset($_GET['id'])) {
     $admin_id = $_GET['id'];
